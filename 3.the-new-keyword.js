@@ -11,3 +11,5 @@ let newEmptyObject = new movieFunc("ooops");
 newEmptyObject.name = "The New Empty Object";
 
 console.log(newEmptyObject);
+
+// the new keyword is syntactic sugar
