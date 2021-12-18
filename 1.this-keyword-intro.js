@@ -1,4 +1,5 @@
 // Example 1 -> Dynamic Scoping
+
 // let movie = "Avatar";
 
 // function otherMovie(movieName) {
@@ -35,3 +36,5 @@ function otherOtherMovie() {
 otherMovie.call(myContext, "is not coming");
 
 otherOtherMovie();
+
+// nothing worth it is ever easy
