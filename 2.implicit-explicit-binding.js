@@ -7,7 +7,7 @@
 //   },
 // };
 
-// movieShop.movieFunc("movie is what I am watching");
+// movieShop.movieFunc("movie is what I am watching"); // movieFunc is acting as a method of the movieShop object
 
 // function movieFunc(movieDesc) {
 //   console.log(this.movie, movieDesc);
@@ -23,8 +23,8 @@
 //   movieFunc: movieFunc,
 // };
 
-// movieShop1.movieFunc("is a fantastic movie");
-// movieShop2.movieFunc("is a romantic movie");
+// movieShop1.movieFunc("is a fantastic movie"); // movieFunc is acting as a method of the movieShop1 object
+// movieShop2.movieFunc("is a romantic movie"); // movieFunc is acting as a method of the movieShop2 object
 
 //  ---------------------------------------------------------
 //(2) -> The second way to call a function -> Explicit Binding Rule
@@ -44,5 +44,8 @@ var movieShop2 = {
 };
 
 // the call method accepts the this keyword as the first argument
+
 movieFunc.call(movieShop1, "is a fantastic movie");
 movieFunc.call(movieShop2, "is a romantic movie");
+
+// be good to myself
