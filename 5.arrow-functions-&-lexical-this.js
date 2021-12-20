@@ -7,4 +7,6 @@ let movieShop = {
   },
 };
 
-movieShop.movieFunc("is a masterpiece");
+// movieShop.movieFunc("is a masterpiece");
+
+// never stop never stopping
