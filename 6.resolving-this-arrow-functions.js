@@ -8,3 +8,5 @@ let movieShop = {
 movieShop.movieFunc("is a good movie");
 
 movieShop.movieFunc.call(movieShop, "is still a good movie");
+
+// it's never too late, Phil
