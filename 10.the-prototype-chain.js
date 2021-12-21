@@ -13,3 +13,5 @@ js.ask("is a great teacher");
 django.ask("is also a great teacher");
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+// do more of what makes you happy, Phil
