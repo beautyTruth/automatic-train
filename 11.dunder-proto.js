@@ -20,3 +20,5 @@ console.log(Object.getPrototypeOf(jsClass));
 console.log(Object.getPrototypeOf(jsClass) === Workshop.prototype);
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto
+
+// be good to yourself
