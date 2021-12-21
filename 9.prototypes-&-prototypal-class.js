@@ -25,3 +25,5 @@ console.log(typeof django);
 // }
 
 // instance of the Workshop class -> new Workshop()
+
+// stop itching old wounds
